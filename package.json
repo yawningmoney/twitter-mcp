@@ -1,0 +1,39 @@
+{
+  "name": "twitter-mcp",
+  "version": "0.3.0",
+  "description": "*   **Post Tweet:** Send a new tweet. *   **Read Timeline:** Get tweets from a user's timeline. *   **Search Tweets:** Search for tweets based on keywords. *   **Send Direct Message:** Send a private message to a user. *   **Follow/Unfollow User:** Manage relationships on the platform. *   **Get User Profile:** Retrieve information from a specific profile. *   **Scrape Tweet Information:** Extract detailed information from tweets, such as likes, retweets, and comments. *   **Open Twitter Links:** Open a Twitter link in the browser. *   **Sentiment Analysis:** Analyze the sentiment of tweets. *   **Trending Topics:** List the most talked about topics in a specific location. *   **Interact with Tweets:** Like, retweet, and comment on tweets.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spktrs/twitter-mcp.git"
+  },
+  "keywords": [],
+  "author": "aspekt",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/spktrs/twitter-mcp/issues"
+  },
+  "homepage": "https://github.com/spktrs/twitter-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.1",
+    "axios": "^1.10.0",
+    "crypto": "^1.0.1",
+    "firecrawl": "^1.26.0",
+    "ms": "^2.1.3",
+    "oauth-1.0a": "^2.2.6",
+    "open": "^10.1.2",
+    "sentiment": "^5.0.2",
+    "twitter-api-v2": "^1.23.2"
+  },
+  "devDependencies": {
+    "@types/ms": "^2.1.0",
+    "@types/node": "^24.0.4",
+    "@types/sentiment": "^5.0.4",
+    "typescript": "^5.8.3"
+  }
+}
