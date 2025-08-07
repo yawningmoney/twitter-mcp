@@ -20,11 +20,11 @@
 
 ## 2. Architecture
 
-The MCP server will be built using TypeScript and Node.js, following the structure of the other MCPs analyzed. It will use the Twitter API for core functionalities, Firecrawl for scraping tweet information, and the Klout API for Klout scores.
+The MCP server was built using TypeScript and Node.js, following the same structure as the other MCPs we reviewed. It uses the Twitter API for core functionality, Firecrawl to collect tweet information, and the Klout API for Klout scores.
 
 ## 3. Authentication
 
-The server will require the following API keys. Only the Twitter API Key and Secret are mandatory.
+The server requires the following API keys. Only the API Key and Twitter Secret are required.
 
 *   **Twitter API Key (Required):** You can get this from the [Twitter Developer Portal](https://developer.twitter.com/en/portal/projects-and-apps).
 *   **Twitter API Secret Key (Required):** You can get this from the [Twitter Developer Portal](https://developer.twitter.com/en/portal/projects-and-apps).
@@ -34,13 +34,3 @@ The server will require the following API keys. Only the Twitter API Key and Sec
 *   **Klout API Key:** You can get this from the [Klout website](http://klout.com/s/developers/home).
 
 You can also use the `twitter_login` tool to authenticate with Twitter and get an access token.
-
-## 4. Implementation Steps
-
-1.  **Project Setup:** Create a new TypeScript project and install the necessary dependencies (`@modelcontextprotocol/sdk`, `axios`, `firecrawl`, `sentiment`, `open`, `ms`).
-2.  **Authentication:** Implement the logic to authenticate with the Twitter API, Firecrawl API and Klout API using the provided credentials.
-3.  **Tool Implementation:** Implement each of the core features as a separate tool in the MCP server.
-4.  **Error Handling:** Implement robust error handling to manage API errors and other potential issues.
-5.  **Anti-Bot Detection:** Implement measures to avoid bot detection, such as using a custom user agent and adding random delays between requests.
-6.  **Testing:** Create a test plan to ensure all tools are working as expected.
-7.  **Documentation:** Write a comprehensive README file with installation instructions, a list of available tools, and usage examples.
