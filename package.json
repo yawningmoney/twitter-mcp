@@ -12,13 +12,13 @@
     "url": "git+https://github.com/spktrs/twitter-mcp.git"
   },
   "keywords": [],
-  "author": "aspekt",
+  "author": "six",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/spktrs/twitter-mcp/issues"
+    "url": "https://github.com/yawningmoney/twitter-mcp/issues"
   },
-  "homepage": "https://github.com/spktrs/twitter-mcp#readme",
+  "homepage": "https://github.com/yawningmoney/twitter-mcp#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.13.1",
     "axios": "^1.10.0",
