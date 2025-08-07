@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.3.0] - 2025-06-25
+## [0.3.0] - 2025-07-28
 
 ### Added
 - `get_followers` tool to get a user's followers.
@@ -13,7 +13,7 @@
 - Updated `package.json` to version 0.3.0.
 - Updated `README.md` with the new features and authentication instructions.
 
-## [0.2.0] - 2025-06-25
+## [0.2.0] - 2025-06-24
 
 ### Added
 - `sentiment_analysis` tool to analyze the sentiment of a text.
@@ -24,7 +24,7 @@
 - Updated `package.json` to version 0.2.0.
 - Updated `README.md` with the new features.
 
-## [0.1.0] - 2025-06-25
+## [0.1.0] - 2025-06-18
 
 ### Added
 - Initial version of the Twitter/X MCP server.
